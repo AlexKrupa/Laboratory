@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Validate Gradle Wrapper
-        uses: gradle/wrapper-validation-action@v1
+        uses: gradle/wrapper-validation-action@v1.0.3
 
   validate-library-gradle-wrapper:
     name: Validate Library
@@ -27,4 +27,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Validate Gradle Wrapper
-        uses: gradle/wrapper-validation-action@v1
+        uses: gradle/wrapper-validation-action@v1.0.3
