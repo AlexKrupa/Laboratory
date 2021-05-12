@@ -26,7 +26,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Cache Gradle Dirs
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.5
         with:
           path: |
             ~/.gradle/caches/
@@ -53,7 +53,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Cache Gradle Dirs
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.5
         with:
           path: |
             ~/.gradle/caches/
@@ -75,7 +75,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Cache Gradle Dirs
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.5
         with:
           path: |
             ~/.gradle/caches/
@@ -97,7 +97,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Cache Gradle Dirs
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.5
         with:
           path: |
             ~/.gradle/caches/
