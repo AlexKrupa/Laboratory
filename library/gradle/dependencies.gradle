@@ -71,5 +71,5 @@ ext.libs = [
         "gradlePlugin": "com.squareup.wire:wire-gradle-plugin:${versions.wire}",
         "runtime": "com.squareup.wire:wire-runtime:${versions.wire}",
     ],
-    "turbine": "app.cash.turbine:turbine:0.2.1",
+    "turbine": "app.cash.turbine:turbine:0.5.1",
 ]
